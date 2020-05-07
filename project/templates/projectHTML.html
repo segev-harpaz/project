@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        </style>
+    </head>
+    <body>
+       <center>
+           {% if result %}
+           {{result}}
+           {% endif %}
+            <table class="tabl">
+                    <form action="http://localhost:5000/result" method="POST">
+                <tr>
+                    <td>
+                        <input type="text" name="NN" id="NN" placeholder="Name" ><br/>
+                            <p id="demo0" name="demo0"></p>
+                            <input type="password" name="PP" id="PP" placeholder="password"><br/>
+                            <p id="demo1" name="demo1"></p>
+                            <input type="text" name="phone" id="phone" placeholder="phone_number"><br/>
+                            <p id="demo2" name="demo2"></p>
+                        </td>
+                    
+                        <tr>
+                        <td>
+                                <select id="cars" name="cars">
+                                <option value="volvo">dsdsds</option>
+                                <option value="saab">Saab</option>
+                                <option value="fiat">Fiat</option>
+                                <option value="audi">Audi</option>
+                            </td>
+                            <td>
+                                    <select id="cars" name="cars">
+                                    <option value="volvo">Volvo</option>
+                                    <option value="saab">Saab</option>
+                                    <option value="fiat">Fiat</option>
+                                    <option value="audi">Audi</option>
+                                </td>
+                                <td>
+                                        <select id="cars" name="cars">
+                                        <option value="volvo">Volvo</option>
+                                        <option value="saab">Saab</option>
+                                        <option value="fiat">Fiat</option>
+                                        <option value="audi">Audi</option>
+                                    </td>
+                                    <td>
+                                            <select id="cars" name="cars">
+                                            <option value="volvo">Volvo</option>
+                                            <option value="saab">Saab</option>
+                                            <option value="fiat">Fiat</option>
+                                            <option value="audi">Audi</option>
+                                        </td>
+                                        <td>
+                                                <select id="cars" name="cars">
+                                                <option value="volvo">Volvo</option>
+                                                <option value="saab">Saab</option>
+                                                <option value="fiat">Fiat</option>
+                                                <option value="audi">Audi</option>
+                                            </td>
+                                            <td>
+                                                    <select id="cars" name="cars">
+                                                    <option value="volvo">Volvo</option>
+                                                    <option value="saab">Saab</option>
+                                                    <option value="fiat">Fiat</option>
+                                                    <option value="audi">Audi</option>
+                                                </td>
+                        </tr>
+                        <input type="submit" value="submit">
+                </tr>
+            </form>
+            </table>
+            <form action="http://localhost:5000/sign_in" method="POST">
+                <input type="submit" value="sign in">
+                            </form>
+       </center>
+   </body>
+</html>
